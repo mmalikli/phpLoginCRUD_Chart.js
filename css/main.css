@@ -1,0 +1,59 @@
+
+   form {
+     border: 1px solid gray;   /* border to the form */
+   }
+   /* Full-width inputs */
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 16px 16px;
+	  margin: 10px 0;
+	  display: inline-block;
+	  border: 1px solid #cccccc;
+	  box-sizing: border-box;
+	}
+
+	/* Set a style for all buttons */
+	button {
+	  background-color: #000544;
+	  color: white;
+	  padding: 16px 15px;
+	  margin: 5px 0;
+	  border: none;
+	  cursor: pointer;
+	  margin-left: 16px; 
+	}
+
+	/* Add a hover effect for buttons */
+	button:hover {
+	  opacity: 0.5;
+	}
+
+	/* Extra style for the cancel button (red) */
+	.cancelbtn {
+	  width: auto;
+	  color: black;
+	  padding: 10px 15px;
+	  background-color: red;
+	  margin-left: 16px;
+	 
+	}
+    .psw {
+	 float: right;
+	 padding-top: 16px;
+	 padding-right:10px;
+	}
+	/* Change styles for span and cancel button on  small screens */
+		@media screen and (max-width: 500px) {
+		  span.psw {
+			display: block;
+			float: none;
+		  }
+		  button {
+		    width: 100%;
+			margin-left: 0;
+		  }
+		  .cancelbtn {
+			width: 100%;
+			margin-left: 0;
+		  }
+		}	
